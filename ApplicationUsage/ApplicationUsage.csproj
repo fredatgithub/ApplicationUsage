@@ -53,5 +53,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MockDataLibrary\MockDataLibrary.csproj">
+      <Project>{dbde948f-b57a-4023-b3b2-c123dad8e1ea}</Project>
+      <Name>MockDataLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
