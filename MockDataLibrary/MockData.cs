@@ -18,9 +18,9 @@ namespace MockDataLibrary
 
     private static readonly List<string> _EnglishLastNames = new List<string> { "Adams", "Allen", "Anderson", "Bailey", "Baker", "Barnes", "Bell", "Bennett", "Brooks", "Brown", "Butler", "Campbell", "Carter", "Clark", "Collins", "Cook", "Cooper", "Cox", "Davis", "Diaz", "Edwards", "Evans", "Foster", "Garcia", "Gonzalez", "Gray", "Green", "Griffin", "Hall", "Harris", "Hernandez", "Hill", "Howard", "Hughes", "Jackson", "James", "Johnson", "Jones", "Kelly", "King", "Lee", "Lewis", "Long", "Lopez", "Martin", "Martinez", "Miller", "Mitchell", "Moore", "Morgan", "Morris", "Murphy", "Nelson", "Nguyen", "Parker", "Perez", "Perry", "Powell", "Price", "Reed", "Richardson", "Rivera", "Roberts", "Robinson", "Rodriguez", "Ross", "Russell", "Sanchez", "Sanders", "Scott", "Shaw", "Smith", "Stewart", "Taylor", "Thomas", "Thompson", "Torres", "Turner", "Walker", "Ward", "Washington", "Watson", "White", "Williams", "Wilson", "Wood", "Wright", "Young" };
 
-    private static readonly List<string> _AmericanCities = new List<string> { "New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia", "San Antonio", "San Diego", "Dallas", "San Jose", "Austin", "Jacksonville", "Fort Worth", "Columbus", "Charlotte", "San Francisco", "Indianapolis", "Seattle", "Denver", "Washington" };
+    private static readonly List<string> _AmericanCities = new List<string> { "Albany, NY", "Albuquerque, NM", "Amarillo, TX", "Anaheim, CA", "Atlanta, GA", "Austin, TX", "Baltimore, MD", "Baton Rouge, LA", "Berkeley, CA", "Beverly Hills, CA", "Billings, MT", "Birmingham, AL", "Boise, ID", "Boston, MA", "Buffalo, NY", "Chapel Hill, NC", "Charleston, SC", "Charlotte, NC", "Cheyenne, WY", "Chicago, IL", "Cincinnati, OH", "Clearwater, FL", "Cleveland, OH", "Columbia, SC", "Columbus, OH", "Cupertino, CA", "Dallas, TX", "Denver, CO", "Des Moines, IA", "Detroit, MI", "Durham, NC", "El Paso, TX", "Eugene, OR", "Fort Worth, TX", "Greensboro, NC", "Hartford, CT", "Houston, TX", "Indianapolis, IN", "Irvine, CA", "Jacksonville, FL", "Jersey City, NJ", "Kansas City, MO", "Las Vegas, NV", "Little Rock, AR", "Los Angeles, CA", "Lubbock, TX", "Madison, WI", "Memphis, TN", "Miami, FL", "Milwaukee, WI", "Minneapolis, MN", "Mobile, AL", "Montgomery, AL", "Mountain View, CA", "Nashville, TN", "New Haven, CT", "New Orleans, LA", "New York, NY", "Newark, NJ", "Norfolk, VA", "Oakland, CA", "Oklahoma City, OK", "Omaha, NE", "Orlando, FL", "Palo Alto, CA", "Pasadena, CA", "Philadelphia, PA", "Phoenix, AZ", "Pittsburgh, PA", "Portland, OR", "Providence, RI", "Provo, UT", "Raleigh, NC", "Reno, NV", "Richmond, VA", "Riverside, CA", "Rochester, NY", "Sacramento, CA", "Saint Paul, MN", "Salem, OR", "San Antonio, TX", "San Bernardino, CA", "San Diego, CA", "San Francisco, CA", "San Jose, CA", "Santa Clara, CA", "Santa Fe, NM", "Santa Monica, CA", "Savannah, GA", "Seattle, WA", "St. Louis, MO", "Sunnyvale, CA", "Syracuse, NY", "Tampa, FL", "Topeka, KS", "Trenton, NJ", "Tulsa, OK", "Virginia Beach, VA", "Washington, DC", "Wichita, KS" };
 
-    private static readonly Dictionary<string, string> _AmericanStates = new Dictionary<string, string> { { "Alabama", "AL" }, { "Alaska", "AK" }, { "Arizona", "AZ" }, { "Arkansas", "AR" }, { "California","CA" }, { "Colorado", "CO" }, { "Connecticut", "CT" }, { "Delaware", "DE" }, { "Florida", "FL" }, { "Georgia", "GA" }, { "Hawaii", "HI" }, { "Idaho", "ID" }, { "Illinois", "IL" }, { "Indiana", "IN" }, { "Iowa", "IA" },    { "Kansas", "KS" }, { "Kentucky", "KY" }, { "Louisiana", "LA" }, { "Maine", "ME" }, { "Maryland", "MD" },    { "Massachusetts", "MA" }, { "Michigan", "MI" }, { "Minnesota", "MN" }, { "Mississippi", "MS" },    { "Missouri", "MO" },    { "Montana", "MT" }, { "Nebraska", "NE" }, { "Nevada", "NV" }, { "New Hampshire", "NH" }, { "New Jersey", "NJ" }, { "New Mexico", "NM" }, { "New York", "NY" }, { "North Carolina", "NC" },    { "North Dakota", "ND" }, { "Ohio", "OH" }, { "Oklahoma", "OK" }, { "Oregon", "OR" }, { "Pennsylvania", "PA" }, { "Rhode Island", "RI" }, { "South Carolina", "SC" }, { "South Dakota", "SD" }, { "Tennessee", "TN" }, { "Texas", "TX" }, { "Utah", "UT" }, { "Vermont", "VT" }, { "Virginia", "VA" }, { "Washington", "WA" }, { "West Virginia", "WV" }, { "Wisconsin", "WI" }, { "Wyoming", "WY" }};
+    private static readonly Dictionary<string, string> _AmericanStates = new Dictionary<string, string> { { "Alabama", "AL" }, { "Alaska", "AK" }, { "Arizona", "AZ" }, { "Arkansas", "AR" }, { "California", "CA" }, { "Colorado", "CO" }, { "Connecticut", "CT" }, { "Delaware", "DE" }, { "Florida", "FL" }, { "Georgia", "GA" }, { "Hawaii", "HI" }, { "Idaho", "ID" }, { "Illinois", "IL" }, { "Indiana", "IN" }, { "Iowa", "IA" }, { "Kansas", "KS" }, { "Kentucky", "KY" }, { "Louisiana", "LA" }, { "Maine", "ME" }, { "Maryland", "MD" }, { "Massachusetts", "MA" }, { "Michigan", "MI" }, { "Minnesota", "MN" }, { "Mississippi", "MS" }, { "Missouri", "MO" }, { "Montana", "MT" }, { "Nebraska", "NE" }, { "Nevada", "NV" }, { "New Hampshire", "NH" }, { "New Jersey", "NJ" }, { "New Mexico", "NM" }, { "New York", "NY" }, { "North Carolina", "NC" }, { "North Dakota", "ND" }, { "Ohio", "OH" }, { "Oklahoma", "OK" }, { "Oregon", "OR" }, { "Pennsylvania", "PA" }, { "Rhode Island", "RI" }, { "South Carolina", "SC" }, { "South Dakota", "SD" }, { "Tennessee", "TN" }, { "Texas", "TX" }, { "Utah", "UT" }, { "Vermont", "VT" }, { "Virginia", "VA" }, { "Washington", "WA" }, { "West Virginia", "WV" }, { "Wisconsin", "WI" }, { "Wyoming", "WY" } };
 
     private static readonly List<string> _Countries = new List<string>
     {"Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia",  "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium",    "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cabo Verde", "Cambodia", "Cameroon", "Canada", "Central African Republic", "Chad", "Chile", "China", "Colombia", "Comoros", "Congo", "Costa Rica", "Croatia", "Cuba", "Cyprus", "Czech Republic", "Democratic Republic of the Congo", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Fiji", "Finland", "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Israel", "Italy", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Kuwait", "Kyrgyzstan",   "Laos",  "Latvia",  "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg",   "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania",    "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru", "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea", "North Macedonia", "Norway", "Oman", "Pakistan", "Palau", "Palestine", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Qatar", "Romania", "Russia", "Rwanda", "Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe",  "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Korea", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Timor-Leste", "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City",  "Venezuela", "Vietnam", "Yemen", "Zambia","Zimbabwe"};
@@ -35,6 +35,23 @@ namespace MockDataLibrary
     {
       var states = new List<string>(_AmericanStates.Keys);
       return states[_random.Next(states.Count)];
+    }
+
+    /// <summary>
+    /// Returns a list containing a specified number of randomly selected U.S. state names.
+    /// </summary>
+    /// <param name="number">The number of random state names to generate. Must be non-negative.</param>
+    /// <returns>A list of strings, each representing a randomly selected U.S. state name. The list contains exactly the
+    /// specified number of elements.</returns>
+    public static List<string> GetSeveralRandomStates(int number = 1)
+    {
+      var result = new List<string>();
+      for (int i = 0; i < number; i++)
+      {
+        result.Add(GetRandomState());
+      }
+
+      return result;
     }
 
     /// <summary>
@@ -141,6 +158,29 @@ namespace MockDataLibrary
     public static string GetRandomCity()
     {
       return _AmericanCities[_random.Next(_AmericanCities.Count)];
+    }
+
+    /// <summary>
+    /// Returns a list containing the specified number of randomly selected city names.
+    /// </summary>
+    /// <param name="number">The number of random city names to generate. Must be non-negative.</param>
+    /// <returns>A list of strings, each representing a randomly selected city name. The list contains exactly the specified
+    /// number of elements. If zero is specified, the list will be empty.</returns>
+    public static List<string> GetSeveralRandomCities(int number = 1)
+    {
+      var result = new List<string>();
+      for (int i = 0; i < number; i++)
+      {
+        var newCity = GetRandomCity();
+        while (result.Contains(newCity)) 
+        {
+          newCity = GetRandomCity();
+        }
+        
+        result.Add(GetRandomCity());
+      }
+
+      return result;
     }
 
     /// <summary>

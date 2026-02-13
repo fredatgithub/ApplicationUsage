@@ -18,8 +18,16 @@ namespace ApplicationUsage
       Display($"one female first name: {GetRandomFirstName(false)}");
       Display($"one person first name male or female: {GetRandomFirstName()}");
 
+      Display($"Get a random US state: {GetRandomStateWithAbbreviation()}");
+      Display($"Get a random US state with abbreviation: {GetRandomStateWithAbbreviation()}");
 
-
+      Display($"Get a random US city: {GetRandomCity()}");
+      Display($"Get several random US cities:");
+      var severalCities = GetSeveralRandomCities(5);
+      for (int i = 0; i < severalCities.Count; i++)
+      {
+        Display($"City: {severalCities[i]}");
+      }
 
       Display("Press any key to exit...");
       Console.ReadKey();
