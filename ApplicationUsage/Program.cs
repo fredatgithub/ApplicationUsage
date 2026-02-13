@@ -9,6 +9,7 @@ namespace ApplicationUsage
       Action<string> Display = Console.WriteLine;
       Display("Mock data");
 
+
       Display("Press any key to exit...");
       Console.ReadKey();
     }
